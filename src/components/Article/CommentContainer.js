@@ -21,6 +21,7 @@ const CommentContainer = props => {
   } else {
     return (
       <div className="col-xs-12 col-md-8 offset-md-2">
+      <p>Signing!</p>
         <p>
           <Link to="/login">Sign in</Link>
           &nbsp;or&nbsp;
